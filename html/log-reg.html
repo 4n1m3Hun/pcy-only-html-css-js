@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/nav-foot.css">
+  <link rel="stylesheet" href="../css/log-reg.css">
+  <link rel="stylesheet" href="../css/scroll.css">
+  <title>PCY</title>
+  <link rel="icon" href="../product/icon.png">
+</head>
+<body>
+  <!--navigációs sáv kialakítása-->
+  <header>
+    <input type="checkbox" id="toggler">
+    <label for="toggler" class="ham">
+      <img src="../icons/hamburger.png" alt="hamburger" class="hamburger">
+    </label>
+    <a href="../html/index.html" class="logo">PCY</a>
+    <nav>
+      <a href="../html/index.html">
+        Főoldal
+      </a>
+      <a href="../html/kap.html">
+        Kapcsolat
+      </a>
+      <a href="../html/prof.html">
+        Profil
+      </a>
+    </nav>
+    <div class="icons">
+      <a href="../html/log-reg.html" class="prof active">
+        <img src="../icons/profil.png" alt="prof">
+      </a>
+      <a href="../html/cart.html" class="cart">
+        <img src="../icons/cart.png" alt="cart">
+      </a>
+      <div class="num">1</div>
+    </div>
+  </header>
+  <script src="../js/slide.js"></script>
+  <div class="full">
+    <div class="wrap">
+      <div class="card">
+        <div class="head">
+          <div class="slide">
+            <div class="slide-item" id="slide-item">
+              as
+            </div>
+            <div class="slide-texts">
+              <div class="log">
+                <a href="javascript:void(0);" onclick="toLeft()">Bejelentkezés</a>
+              </div>
+              <div class="reg">
+                <a href="javascript:void(0);" onclick="toRight()">Regisztáció</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="forms">
+          <form class="form" id="form1">
+            <div class="text">
+                <label>Email-cím1</label>
+                <input type="text" name="email">
+            </div>
+            <div class="text">
+                <label>Jelszó</label>
+                <input type="password" name="password">
+                <i class="fas fa-eye"></i>
+            </div>
+            <div class="text">
+              <label>Jelszó megerősítő</label>
+              <input type="password" name="password">
+              <i class="fas fa-eye"></i>
+            </div>
+            <div class="text button">
+                <input type="submit" value="Belépés">
+            </div>
+          </form>
+          <form class="form" id="form2">
+            <div class="text">
+                <label>Email-cím2</label>
+                <input type="text" name="email">
+            </div>
+            <div class="text">
+                <label>Jelszó</label>
+                <input type="password" name="password">
+                <i class="fas fa-eye"></i>
+            </div>
+            <div class="text button">
+                <input type="submit" value="Belépés">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <footer>
+    <div class="foot">
+      <div class="foot-logo">
+        <div class="foot-l">
+          <a href="../html/index.html" class="logo">PCY</a>
+        </div>
+      </div>
+      <div class="foot-ul">
+        <ul>
+          <li><a href="../html/index.html">Főoldal</a></li>
+          <li><a href="../html/kap.html">Kapcsolat</a></li>
+          <li><a href="../html/prof.html">Profil</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/scroll.js"></script>
+</body>
+</html>

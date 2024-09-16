@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/nav-foot.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/kap.css">
+  <link rel="stylesheet" href="../css/prof.css">
+  <link rel="stylesheet" href="../css/scroll.css">
+  <title>PCY</title>
+  <link rel="icon" href="../product/icon.png">
+</head>
+<body>
+  <!--navigációs sáv kialakítása-->
+  <header>
+    <input type="checkbox" id="toggler">
+    <label for="toggler" class="ham">
+      <img src="../icons/hamburger.png" alt="hamburger" class="hamburger">
+    </label>
+    <a href="../html/index.html" class="logo">PCY</a>
+    <nav>
+      <a href="../html/index.html">
+        Főoldal
+      </a>
+      <a href="../html/kap.html">
+        Kapcsolat
+      </a>
+      <a href="../html/prof.html" class="active">
+        Profil
+      </a>
+    </nav>
+    <div class="icons">
+      <a href="../html/log-reg.html" class="prof">
+        <img src="../icons/profil.png" alt="prof">
+      </a>
+      <a href="../html/cart.html" class="cart">
+        <img src="../icons/cart.png" alt="cart">
+      </a>
+      <div class="num">1</div>
+    </div>
+  </header>
+  <div class="profil">
+    <div class="prof-div">
+      <div class="data">
+        <div class="categories-title">Profil</div>
+        <div class="prof-data">
+          <h1>Adatmódosítás</h1>
+          <label>Név</label><br>
+          <input type="text"><br>
+          <label >E-mail cím:</label><br>
+          <input type="text"><br>
+          <input type="checkbox" name="level" id="level">Hírlevél<br>
+          <input type="checkbox" name="level" id="level1">Termék értékelő levelek<br>
+          <input type="checkbox" name="level" id="level2">Kosár emlékeztető<br>
+          <button>Mentés</button>
+        </div>
+        <div class="password">
+          <h1>Jelszómódosítás</h1>
+          <label>Régi jelszó</label><br>
+          <input type="password"><br>
+          <label >Új jelszó</label><br>
+          <input type="password"><br>
+          <label >Új jelszó</label><br>
+          <input type="password"><br>
+          <button>Mentés</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot">
+      <div class="foot-logo">
+        <div class="foot-l">
+          <a href="../html/index.html" class="logo">PCY</a>
+        </div>
+      </div>
+      <div class="foot-ul">
+        <ul>
+          <li><a href="../html/index.html">Főoldal</a></li>
+          <li><a href="../html/kap.html">Kapcsolat</a></li>
+          <li><a href="../html/prof.html">Profil</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/scroll.js"></script>
+</body>
+</html>
